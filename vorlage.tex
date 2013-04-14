@@ -1,0 +1,908 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage[ngerman]{babel}
+\usepackage[latin1]{inputenc}
+%\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{times}
+\usepackage[left=30mm,right=40mm,top=25mm,bottom=20mm, includeheadfoot, centering]{geometry}
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage[center]{caption2}
+\usepackage[flushmargin,bottom,hang]{footmisc}
+\usepackage{acronym}
+
+\pagestyle{myheadings}
+\renewcommand{\baselinestretch}{1.3}
+\renewcommand{\arraystretch}{1.0}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0cm}
+\setlength{\footnotemargin}{1em}
+
+\renewcommand{\labelenumi}{(\alph{enumi})}
+\renewcommand{\labelenumii}{(\alph{enumi}\arabic{enumii})}
+
+
+
+\begin{document}
+
+
+\begin{titlepage}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+
+\begin{center}
+\noindent {\Large Hinweise zur Anfertigung einer Bachelor-/ Diplom-/Master-/
+Seminar-/Studienarbeit}
+
+\vspace{10ex} {\Huge Bachelor-/Diplom-/Master-/ Seminar-/Studienarbeit
+\footnote{Entsprechendes ausw\"{a}hlen}}
+
+
+\vspace{10ex}
+
+
+  \noindent eingereicht bei \\
+  \vspace{10ex}
+  bei Prof. Dr. Werauchimmer\\
+Institut f\"{u}r Wirtschaftswissenschaft\\
+Abteilung f\"{u}r Wasauchimmer\\
+Fakult\"{a}t f\"{u}r Energie- und Wirtschaftswissenschaften\\ Technische Universit\"{a}t
+Clausthal\\[10ex] von \\ Wer auch immer\\
+Julius-Albert-Str. 2\\
+38678 Clausthal-Zellerfeld\\ Telefon: 05323-727633 \\ Studienrichtung:
+Wirtschaftswissenschaften\\ 24. Fachsemester \\ Matrikelnummer: 0815007 \\[2ex]
+Datum: \today
+
+\end{center}
+
+
+
+\end{titlepage}
+%Inhaltsverzeichnis soll r\"{o}misch numeriert sein:
+\pagenumbering{roman}
+
+%Erstellt das Inhaltsverzeichnis:
+\addcontentsline{toc}{section}{Inhaltsverzeichnis}\tableofcontents
+\renewcommand{\baselinestretch}{1.5}
+\pagebreak
+
+%Erstellt das Abk\"{u}rzungsverzeichnis:
+\section*{Abk\"{u}rzungsverzeichnis}
+\emph{Abbildungs-, Abk\"{u}rzungs- und Tabellenverzeichnisse k\"{o}nnen bei nur wenigen
+Eintr\"{a}gen entfallen.} \vspace{0.5em}
+\addcontentsline{toc}{section}{Abk\"{u}rzungsverzeichnis}%
+
+\singlespacing
+
+\begin{acronym}[XXXXX]
+\acro{TUC}{Technische Universit\"{a}t Clausthal}
+\end{acronym}
+
+%Erstellt das Tabellenverzeichnis:
+\listoftables \addcontentsline{toc}{section}{Tabellenverzeichnis}
+\renewcommand{\baselinestretch}{1.5}
+ \pagebreak
+
+
+%Der Rest soll arabisch numeriert sein:
+\pagenumbering{arabic}\setcounter{page}{1}
+
+\clearpage \setcounter{footnote}{0}
+\setlength{\parskip}{6pt}
+
+\sloppy
+\renewcommand{\thefootnote}{\arabic{footnote}}
+
+\section{Einleitung}
+
+Bachelor-, Diplom-, Master-, Seminar- und Studienarbeiten stellen
+Pr\"{u}fungs\-leistungen dar, welche Studierende am Institut f\"{u}r Wirtschaftswissenschaft
+der Technischen Universit\"{a}t Clausthal (\acs{TUC}) im Rahmen ihres Studiums zu
+erbringen haben. An die Anfertigung dieser wissenschaftlichen Arbeiten werden
+zahlreiche wissenschaftlich-methodische und formal-technische Anforderungen
+gestellt.
+
+Durch die Anfertigung einer wissenschaftlichen Arbeit sollen die Studierenden
+zeigen, dass sie in der Lage sind, ein \"{o}konomisches Problem selbstst\"{a}ndig und
+innerhalb einer bestimmten Frist unter der Anwendung einschl\"{a}giger
+wissenschaftlicher Methoden zu bearbeiten. Das Anfertigen einer derartigen Arbeit
+stellt neben der eigentlichen inhaltlichen Aufgabenstellung h\"{a}ufig auch eine
+schwierige formal-technische Aufgabe dar.
+
+Zu der Frage \glqq Wie man eine wissenschaftliche Abschlu\ss arbeit schreibt\grqq\
+(Eco, 1993) existieren eine ganze Reihe von Ratgebern, welche Grundkenntnisse und
+praktische Empfehlungen f\"{u}r die Anfertigung wissenschaftlicher Arbeiten
+liefern.\footnote{Vgl. z.B. \cite{bri2005}, \cite{rop2005}, \cite{fra2004},
+\cite{dis1998}, \cite{bae1996}, \cite{cor1996}, \cite{eco1993} oder \cite{the1993}.
+Die vorliegenden Ausf\"{u}hrungen basieren in Teilen auf der Arbeit von \cite{rid2001},
+mit welcher der Autor zu seinen Studienzeiten gute Erfahrungen gemacht hat.} Ferner
+bietet das Institut f\"{u}r Wirtschaftswissenschaft auch eine eigens zu diesem Thema
+konzipierte Lehrveranstaltung an, welche allen Studierenden des Instituts f\"{u}r
+Wirtschaftswissenschaft offen steht.
+
+Das Ziel dieser vorliegenden Arbeit stellt die Vermittlung eines \"{U}berblicks \"{u}ber die
+wesentlichen Grundregeln zur Erstellung wissenschaftlicher Arbeiten dar. Ferner
+liefert die Arbeit einige Vorschl\"{a}ge zur Gestaltung formaler Inhaltselemente. Diese
+\"{U}berblicksarbeit kann zudem als Beispielvorlage f\"{u}r eine eigene wissenschaftliche
+Arbeiten an der TU Clausthal verwendet werden. Auf Grund der Vielzahl z.B. m\"{o}glicher
+Zitiertechniken kann sie allerdings keinen Anspruch auf Vollst\"{a}ndigkeit erheben.
+Insbesondere die detaillierte formale Gestaltung von wissenschaftlichen Arbeiten
+sollte stets mit den zust\"{a}ndigen Betreuerinnen und Betreuern abgestimmt werden.
+
+In den folgenden Kapiteln \ref{Verfassen} und \ref{Formales} werden
+wissenschaftsmethodische und formale gestalterische Anforderungen an diese Arbeiten
+n\"{a}her dargestellt. Im abschlie\ss enden Kapitel \ref{Beratung} werden die wesentlichen
+Ergebnisse zu einem Bewertungskanon zusammengef\"{u}hrt.
+
+\section{Das Verfassen einer wissenschaftlichen Abschlussarbeit}\label{Verfassen}
+
+Die wesentlichen Bewertungskriterien f\"{u}r wissenschaftliche Arbeiten stellen der
+Aufbau der eigenen (!) Argumentation sowie die Analyse der f\"{u}r die Themenstellung
+relevanten Literatur dar. Diese beiden Aspekte werden in den nachfolgenden
+Ausf\"{u}hrungen eingehender erl\"{a}utert. Im folgenden Abschnitt \ref{AAufbau} wird
+zun\"{a}chst das methodische Vorgehen n\"{a}her erl\"{a}utert, w\"{a}hrend der Abschnitt
+\ref{Umgang} die Recherche und Auswertung der themenrelevanten Literatur zum
+Gegenstand hat.
+
+\subsection{Der Aufbau einer wissenschaftlichen Arbeit} \label{AAufbau}
+\subsubsection{Fragestellung und Vorgehensweise}
+
+Den Kern einer jeden wissenschaftlichen Arbeit stellt die Entwicklung einer
+Fragestellung dar, auf welcher alle folgenden Bearbeitungsschritte aufzubauen sind.
+Je pr\"{a}ziser dieser grundlegende erste Bearbeitungsschritt vollzogen wird, desto eher
+kann die grundlegende Zielsetzung der wissenschaftlichen Arbeit abgeleitet und die
+eigene Argumentation darauf ausgerichtet werden. F\"{u}r die Ableitung dieser
+Fragestellung ist i.d.R. eine erste Durchsicht der einschl\"{a}gigen Literatur
+notwendig, um dadurch \"{u}berhaupt erst die relevanten Themen und Problemfelder
+erschlie\ss en und als Fragestellung auch formulieren zu k\"{o}nnen (z.B.: Welche
+wettbewerblichen Wirkungen k\"{o}nnen von nat\"{u}rlichen Monopole in Netzindustrien
+ausgehen?). Aus dieser Problemerschlie\ss ung l\"{a}sst sich somit die Zielsetzung der
+Arbeit ableiten, und dieses stellt bereits ein wesentliches Teilergebnis der
+wissenschaftlichen Arbeit dar (z.B.: Ziel der vorliegenden Arbeit ist es, die
+wettbewerblichen Wirkungen von nat\"{u}rlichen Monopolen in Netzindustrien auf den
+Eintritt neuer Anbieter im Markt zu analysieren.)
+
+Nur aus einer entwickelten Fragestellung heraus ergibt sich \"{u}berhaupt erst die
+M\"{o}glichkeit die f\"{u}r die eigene Arbeit relevante Literatur zu ordnen. So stellt die
+Aufarbeitung und Zusammenf\"{u}hrung bestehender Erkenntnisse inklusive einer kritischen
+Diskussion den Grundbaustein der Bearbeitung der Fragestellung dar. Unter dem Ordnen
+von Literatur wird dabei die Herstellung eines ausreichend begr\"{u}ndeten Zusammenhangs
+zwischen der eigenen Zielsetzung sowie den Darstellungen und Argumentationen bereits
+vorhandener Arbeiten hergestellt. Die Zielsetzung fungiert somit quasi als der
+Beginn  des \glqq roten Fadens\grqq, welcher die erarbeiteten Erkenntnisse
+problembezogen miteinander verkn\"{u}pft und auf die Zielsetzung der Arbeit bezieht. Die
+Strukturierung des zu bearbeitenden \"{o}konomischen Problems dr\"{u}ckt die
+Eigenst\"{a}ndigkeit der Argumentationsf\"{u}hrung aus und \"{u}bt damit einen ma\ss geblichen
+Einfluss auf die Qualit\"{a}t der wissenschaftlichen Arbeit aus.
+
+Von besonderer Bedeutung f\"{u}r diese Strukturierungsleistung sind die Einleitung und
+die Ergebnisteile einer Arbeit. Sie bilden die \glqq logische\grqq\ Klammer f\"{u}r die
+Bearbeitung der Hauptteile. Die vorliegenden Ausf\"{u}hrungen haben zum Ziel, die in der
+Untersuchung verwendete Systematik ausreichend darzulegen und die auf die
+Zielsetzung bezogenen Ergebnisse der Arbeit herauszustellen.
+
+Eine wichtige Aufgabe der Einleitung stellt die inhaltliche Begr\"{u}ndung der gew\"{a}hlten
+Vorgehensweise dar: So findet eine Einf\"{u}hrung in die Problemstellung der Arbeit
+statt, an welcher die Relevanz der vorliegenden Fragestellung inhaltlich abgeleitet
+und das Analyseziel  explizit formuliert wird. Basierend auf diesen einf\"{u}hrenden
+\"{U}berlegungen wird der Gang der Argumentation entwickelt und die Verbindungen zu den
+einzelnen Bearbeitungsschritten, d.h. zu den einzelnen  Unterkapiteln der Arbeit,
+hergestellt. Die Einleitung kann zudem auch dazu verwendet werden, um bei eher
+allgemein gehaltenen Problemstellungen (z.B. Weiterentwicklungen des Menschenbildes
+des homo oeconomicus) relevante Grundbegriffe zu kl\"{a}ren als auch Abgrenzungen des
+Themas (z.B. Ergebnisse experimenteller Untersuchungen) vorzunehmen.
+
+Das Ziel einer jeden wissenschaftlichen Arbeit stellt stets die Erarbeitung neuer
+Erkenntnisse dar. F\"{u}r den Bereich von Seminar-, Studien-, Diplom-, Bachelor- und
+Masterarbeiten sind dabei in erster Linie Schlussfolgerungen, welche sich aus der
+eigenen Literaturanalyse ergeben, auf die Zielsetzung der Arbeit zu beziehen. Diese
+Schlussfolgerungen k\"{o}nnen sich zum einen auf die jeweiligen Bearbeitungsschritte
+(also Kapitel) der Arbeit beziehen und werden als Teilergebnisse der Analyse in
+einem entsprechenden Zwischenfazit am Ende des jeweiligen Kapitels zusammengefasst.
+Zum anderen sind dies allerdings auch Schlussfolgerungen, welche sich aus der
+Synthese und kritischen Diskussion der jeweiligen Teilergebnisse im abschlie\ss enden
+Ergebnisteil ergeben. Schwerpunkte einer solchen Ergebnisdiskussion k\"{o}nnen die
+Zusammenfassung der wesentlichen Ergebnisse, aber auch die Formulierung
+weiterf\"{u}hrender Thesen und/oder offener Fragen sein.
+
+Die Konzeption und Umsetzung dieser logischen \glqq Klammer\grqq\ der Argumentation
+- ausgehend von der Zielsetzung \"{u}ber die einzelnen Begr\"{u}ndungsschritte bis zu den
+Ergebnissen der Arbeit - ist kein einzelner, in sich abgeschlossener Arbeitsschritt,
+sondern ein die gesamte Bearbeitung begleitender Prozess. Das mehrfache Entwerfen
+und kontinuierliche Pr\"{u}fen der eigenen Argumentation bringt diesen Reifungsprozess
+einer wissenschaftlichen Arbeit zum Ausdruck.
+
+\subsubsection{Die Gliederungssystematik}\label{Gliederungssystematik}
+
+Die Gliederung der Arbeit ist das formale Gegenst\"{u}ck zur Argumentationsf\"{u}hrung. Sie
+gibt eine erste Information \"{u}ber den Inhalt und die Vorgehensweise einer
+wissenschaftlichen Arbeit. Gliederungs\"{u}berschriften, die den zentralen Inhalt der
+jeweiligen Bearbeitung in einer aussagekr\"{a}ftigen Form wiedergeben, sind daher f\"{u}r
+das Verst\"{a}ndnis der Argumentationsf\"{u}hrung von herausgehobener Bedeutung. Die
+relevanten Themen- oder Gedankengruppen werden durch die Aufgliederung in Teile,
+Kapitel oder Abschnitte inhaltlich abgegrenzt und - dem Bearbeitungsgang
+entsprechend - in ihrer Reihenfolge angeordnet.
+
+Eine folgerichtige und in sich geschlossene Gedankenf\"{u}hrung zeigt sich in einem auch
+formal einwandfreien Gliederungsaufbau. Positionen, die inhaltlich den gleichen Rang
+einnehmen, stehen auch in der Gliederung auf derselben Stufe. Untergliederungen
+bringen die relevanten Teilaspekte einer Problemstellung zum Ausdruck. Sie dienen
+dem Zweck, verschiedene Aspekte der \"{u}bergeordneten gemeinsamen Problemstellung
+auszuarbeiten. Einzelne Unterpunkte wiederholen daher nicht den \"{u}bergeordneten Punkt
+wortgetreu, sondern weisen wesentliche Unterscheidungsmerkmale aus (vgl. Tabelle
+\ref{TabGliederung}).
+
+\begin{center}
+\begin{table}[h] \centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|r|r|}
+\multicolumn{1}{c}{\hspace{5cm}} & \multicolumn{1}{c}{\hspace{5cm}} \\ \hline
+\multicolumn{1}{|c|}{\glqq falsch\grqq} & \multicolumn{1}{c|}{\glqq richtig\grqq} \\
+\hline
+3. Potenziale und Entwicklung & 3. Die Marktsituation von erneuerbaren  \\
+erneuerbarer Energien & Energien \\ \hline
+3.1 Potenziale & 3.1 Potenziale erneuerbarer Energien \\
+\hline
+3.2 Entwicklung & 3.2 Entwicklung der Stromerzeugung \\
+& auf Basis erneuerbarer Energien \\
+\hline
+\end{tabular}
+\singlespacing \caption{Problemorientierung im
+Gliederungsaufbau}\label{TabGliederung} {Quelle: Eigene Darstellung}
+\renewcommand{\arraystretch}{1.3}
+\onehalfspacing
+\end{table}
+\end{center}
+
+Zur Klassifikation der Gliederungspunkte stehen verschiedene Systematiken zur
+Verf\"{u}gung. \"{U}bliche Klassifikationssysteme sind in Tabelle 2 zusammenfassend
+dargestellt. Die zu bestimmende Tiefe der Gliederung h\"{a}ngt von Gegenstand, Art und
+L\"{a}nge der Arbeit ab, wobei diese auch im Interesse der \"{U}bersichtlichkeit zu
+beurteilen ist.
+
+Da Unterabschnitte (z.B. 2.2.1, 2.2.2) jeweils einem \"{u}bergeordneten Problemkreis
+(z.B. 2.2) zugeordnet sind, sollten diese Abschnitte - soweit dies m\"{o}glich und
+sinnvoll ist - sowohl untereinander als auch im Vergleich mit anderen Abschnitten
+(z.B. 4.1.1 bis 4.1.3) von gleichem Gewicht sein. Beim Untergliedern von Kapiteln
+ist zudem zu beachten, dass auf Grund dieses Prinzips auf ein Unterkapitel (z.B.
+1.1) immer mindestens ein weiteres Unterkapitel (z.B. 1.2) folgt. Bei der Gliederung
+eines Textes sollte zudem darauf geachtet werden, dass der Text nicht unn\"{o}tigerweise
+in zu viele Gliederungspunkte nahezu \glqq zergliedert\grqq\ wird, da hierdurch die
+Lesbarkeit des Textes u.U. deutlich eingeschr\"{a}nkt werden kann. \glqq Br\"{u}che\grqq\ in
+der Argumentationsf\"{u}hrung stellen einen gravierenden konzeptionellen Mangel
+schriftlicher Arbeiten dar. Die kritische Pr\"{u}fung der Gliederungssystematik im
+Hinblick auf die Klarheit und Nachvollziehbarkeit der Begr\"{u}ndungsschritte - die
+\glqq Stringenz\grqq - ist daher auch f\"{u}r den Verfasser oder die Verfasserin eine
+wichtige M\"{o}glichkeit, um Widerspr\"{u}che oder fehlende Verbindungen im Gedankengang
+aufzudecken und die gew\"{a}hlte Vorgehensweise zu \"{u}berdenken.
+
+\begin{center}
+\begin{table}[h] \centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|l|l|}
+\multicolumn{1}{c}{\hspace{5cm}} & \multicolumn{1}{c}{\hspace{5cm}} \\ \hline
+\multicolumn{1}{|c|}{Numerische Gliederung} & \multicolumn{1}{c|}{Gemischte (alphanumerische)} \\
+\multicolumn{1}{|c|}{} & \multicolumn{1}{|l|}{Klassifikation} \\
+\hline 1 & A\\ \hline 2 & B \\ \hline 2.1 & 1 \\ \hline 2.2 & 2 \\ \hline 2.2.1 &
+2.2 \\ \hline 2.2.2 & 2.2 \\ \hline 2.3 & 3 \\ \hline 3 & C \\ \hline
+\end{tabular}
+\singlespacing \caption{Klassifikationssysteme}\label{Klassifikation} {Quelle:
+Eigene Darstellung}
+\renewcommand{\arraystretch}{1.3}
+\onehalfspacing
+\end{table}
+\end{center}
+
+
+\subsection{Der Umgang mit wissenschaftlicher Literatur} \label{Umgang}
+
+\subsubsection{Die Suche nach relevanter Literatur}
+
+Am Beginn einer jeden wissenschaftlichen Arbeit steht immer die Recherche und
+Beschaffung der f\"{u}r die Themenstellung relevanten Literatur, um dadurch \"{u}berhaupt
+erst eine inhaltliche Kompetenz bez\"{u}glich der verfolgten Themenstellung erlangen zu
+k\"{o}nnen. Ein grundlegender Einstieg wird h\"{a}ufig durch die von den Betreuenden der
+Arbeit ausgeh\"{a}ndigte Basisliteratur gew\"{a}hrt. Wie der Name schon verlauten l\"{a}sst,
+stellt diese Literatur allerdings im Regelfall nur den Einstieg in die Bearbeitung
+des Themas dar.
+
+Neben dieser Basislekt\"{u}re er\"{o}ffnen h\"{a}ufig auch (Hand-)W\"{o}rterb\"{u}cher der Betriebs-
+oder Volkswirtschaftslehre einen ersten Einstieg in das Thema, in welchen h\"{a}ufig
+kurze Abhandlungen die Breite des bereits existierenden Fachwissens aufzeigen.
+Daneben existieren zu spezifischeren Fragestellungen v.a. in internationalen
+Journals h\"{a}ufig auch \"{U}berblicksartikel zu speziellen Forschungsprogrammen (sog.
+\glqq Surveys\grqq). Ebenso vermitteln selbstverst\"{a}ndlich einschl\"{a}gige Lehrb\"{u}cher
+themenspezifische \"{U}berblicke sowie Ansatzpunkte f\"{u}r die Recherche. Insgesamt sollte
+sich mit Hilfe dieser genannten Quellen h\"{a}ufig ein problemloser Einstieg in das
+jeweilige Themengebiet finden lassen.
+
+F\"{u}r eine vertiefende Literaturrecherche ist schlie\ss lich eine systematische
+Durchsicht der f\"{u}r das Thema relevanten nationalen und internationalen
+Fachzeitschriften notwendig, in welchen aktuelle Forschungsergebnisse ver\"{o}ffentlich
+werden. Diese Arbeiten lassen sich h\"{a}ufig bereits anhand des Themas oder der
+Zusammenfassung (Abstract) auf ihre thematische Relevanz hin untersuchen. Bei der
+Auswahl der Artikel sind insbesondere auch der thematische Schwerpunkt einer
+Zeitschrift sowie deren Zielgruppen zu ber\"{u}cksichtigen. Ferner lassen sich in
+Fachzeitschriften h\"{a}ufig auch wissenschaftliche Rezensionen zu weiteren aktuellen
+Ver\"{o}ffentlichungen finden, welche ebenfalls f\"{u}r die eigene Literaturbeschaffung
+herangezogen werden k\"{o}nnen.
+
+Die zentralen Orte f\"{u}r die eigene Literatursuche stellen zun\"{a}chst die Bibliothek des
+Instituts f\"{u}r Wirtschaftswissenschaft sowie die Universit\"{a}tsbibliothek dar. Beide
+Einrichtungen verf\"{u}gen \"{u}ber unterschiedlichste Suchinstrumente (Kataloge,
+Datenbanken etc.), anhand derer nach m\"{o}glicher Literatur recherchiert werden
+kann.\footnote{Die Universit\"{a}tsbibliothek bietet regelm\"{a}\ss ig Einf\"{u}hrungskurse in die
+Benutzung der Bibliothek an.} Ferner verf\"{u}gen im Netzwerk der TU Clausthal
+angeschlossene Rechner \"{u}ber die M\"{o}glichkeit, in der elektronischen
+Zeitschriftenbibliothek der TUC in zahlreichen (inter-) nationalen Journals online
+zu recherchieren. Einige Journals werden in gedruckter Form auch in der
+Institutsbibliothek Wirtschaftswissenschaft gehalten. Eine M\"{o}glichkeit zu einer
+umfassenderen Recherche bietet die Fernleihe \"{u}ber den Gemeinsamen Bibliotheksverbund
+(http://www.gbv.de). \"{U}ber das Internet lassen sich ferner auch spezifische Archive
+mit aktuellen, noch nicht publizierten Forschungsarbeiten (sog. \glqq Working Paper
+Archives\grqq) durchsuchen. Derartige Forschungsarbeiten stehen h\"{a}ufig auf den
+Internetseiten von Forschungseinrichtungen zum freien Download zur Verf\"{u}gung. Die
+Verwendung nichtwissenschaftlicher Quellen, wie etwa Abfragen aus
+Internetsuchmaschinen oder Vorlesungsunterlagen, sollte in jeder Arbeit
+grunds\"{a}tzlich unterbleiben. Je nach Art und v.a. Aktualit\"{a}t der Themenstellung l\"{a}sst
+sich eine Verwendung nichtwissenschaftlicher Quellen jedoch h\"{a}ufig nicht vollst\"{a}ndig
+ausschlie\ss en.
+
+\subsubsection{Die Verarbeitung von Literaturquellen}
+
+Der \glqq Literaturkasten\grqq\ kann durch die unterschiedlichen
+Recherchem\"{o}glichkeiten schnell breit und reichhaltig gef\"{u}llt werden. Zwei Fragen
+schlie\ss en sich an: Welche dieser Quellen sind f\"{u}r das Thema der Arbeit relevant und
+welche sind f\"{u}r die Bearbeitung der eigenen Problemstellung geeignet? Zur
+Beantwortung dieser Fragen ist eine kontinuierliche Auswertung sowie eine der
+Zielsetzung angemessene Einordnung der einzelnen Literaturquellen
+erforderlich.\footnote{Vgl. hierzu auch \cite{hae2000}.}
+
+Die Bearbeitungsschritte erfordern ein tiefes inhaltliches Verst\"{a}ndnis sowie eine
+Verarbeitung der einzelnen Quellen. Da die Vielfalt an Informationen, die Verwendung
+einer fachspezifischen Sprache oder der einfache \glqq Glaube\grqq\ an die
+Richtigkeit der getroffenen schriftlichen Ausf\"{u}hrungen oftmals eine kritische
+Reflexion der Ausf\"{u}hrungen erschweren, sollten in der Vor- und Nachbereitung des
+Textes die folgenden Grundregeln beachtet werden:\footnote{Vgl. \cite{koe1988}, S.
+43f. Zum Lesen wissenschaftlicher Texte vgl. auch \cite{sch2003}.}
+
+\begin{itemize}
+
+\item Gewinnen eines \"{U}berblicks, um Zielsetzung, grundlegende Inhalte und den Aufbau
+des Beitrags sowie die wissenschaftliche Denkrichtung zu verstehen;
+
+\item Formulieren von Fragen, um das eigene Interesse am Beitrag zu pr\"{a}zisieren;
+
+\item Erfassen der Inhalte, um Kernaussagen und wissenschaftliches Vorgehen (wie Art
+der Aussagen, Methodik des empirischen Vorgehens) nachzuvollziehen;
+
+\item Pr\"{u}fen des Erkl\"{a}rungsbeitrags der Aussagen, um etwa die Art des
+wissenschaftlichen Erkenntnisinteresses (deskriptiv, normativ, funktional), das
+methodische Vorgehen zur Hypothesenformulierung (deduktiv, induktiv) und auch eigene
+Interpretationen des Autors zu unterscheiden und diese in den Themenkontext der
+eigenen Arbeit einzuordnen;
+
+\item Feststellen, welche Punkte offen geblieben sind, welche weiteren Fragen sich
+anschlie\ss en bzw. welche Verbindungen sich zu den Erkenntnissen auch anderer Autoren
+herstellen lassen.
+
+\end{itemize}
+
+Die Erstellung eines Auszugs (Exzerpt) des gelesenen Beitrags in eigenen Worten
+zeigt nicht nur, ob der Text verstanden worden ist. Vielmehr dient ein Exzerpt auch
+der Dokumentation, wenn z.B. entsprechende Stichworte gebildet werden. Zudem
+erleichtert es die auf das eigene Thema bezogene Einordnung, wenn die spezifischen
+Erkenntnisse mit den Aussagen anderer Beitr\"{a}ge verglichen werden.
+
+Das Schreiben einer wissenschaftlichen Arbeit ist somit stets ein durchaus
+dynamischer Prozess, der durch zahlreiche Wechselwirkungen zwischen den einzelnen
+Arbeitsschritten gepr\"{a}gt ist. Dies schlie\ss t anf\"{a}ngliche \glqq Irrwege\grqq\ in der
+Bearbeitung nicht aus und erfordert von daher immer eine kontinuierliche Pr\"{u}fung der
+beabsichtigten Argumentationsf\"{u}hrung im Hinblick auf die Vollst\"{a}ndigkeit der
+Themenerschlie\ss ung und die Nachvollziehbarkeit des Argumentationsaufbaus.
+Erfahrungsgem\"{a}\ss  kann es als sinnvoll erachtet werden, Gliederungsentw\"{u}rfe mit den
+Kommilitonen/-innen und mit dem Betreuer oder der Betreuerin des Themas zu
+diskutieren.
+
+\section{Der formale Rahmen der Anfertigung von wissenschaftlichen
+Arbeiten}\label{Formales}
+
+An die Anfertigung von wissenschaftlichen Arbeiten werden \"{a}u\ss erst spezielle
+Anforderungen an die Textbearbeitung und die Textgestaltung gestellt. Der
+wesentliche Grund f\"{u}r diese formalen Anforderungen an den Nachweis der verwendeten
+Quellen ist, dass im Regelfall nicht eigene, sondern vielmehr das Gedankengut
+anderer Autorinnen und Autoren den Inhalt der Literaturbearbeitung darstellt. Aus
+diesen Grunde ergibt die Anforderung an wissenschaftliche Arbeiten, die verwendeten
+Quellen in einer transparenten und nachvollziehbaren Art und Weise darzulegen (Kap.
+\ref{Textbearbeitung}). Anforderungen an die Textgestaltung ergeben sich aus der
+Notwendigkeit, aus pr\"{u}fungstechnischen Gr\"{u}nden f\"{u}r eine einheitliche und
+vergleichbare Bearbeitung Sorge zu tragen (Kap. \ref{Textgestaltung}).
+
+\subsection{Anforderungen an die Textbearbeitung} \label{Textbearbeitung}
+
+\subsubsection{Die Quellenangabe im Text}
+
+Der Leitgedanke beim Quellennachweis ist, einerseits die direkt oder indirekt
+\"{u}bernommenen Gedanken eines anderen Autors kenntlich zu machen und andererseits dem
+Leser oder der Leserin die M\"{o}glichkeit zu er\"{o}ffnen, anhand des Zitates den
+aufgenommenen Gedanken zur\"{u}ckzuverfolgen. In diesem Sinne ist einwandfreies Zitieren
+Ausdruck wissenschaftlicher Sorgfalt.
+
+\"{U}bernommenes fremdes Gedankengut ist auch aus pr\"{u}fungsrechtlichen Erfordernissen
+kenntlich zu machen. Wird fremdes Gedankengut verwendet und nicht als solches
+gekennzeichnet, so stellt dieses einen Betrugsversuch dar: Die Arbeit ist dann mit
+der Note \glqq 5\grqq\ zu bewerten. Bei Abgabe von Diplom-/Bachelor- oder
+Masterarbeiten ist eine entsprechende schriftliche Erkl\"{a}rung zur Abfassung der
+Arbeit abzugeben. Diese Erkl\"{a}rung ist bei allen abzugebenden Exemplaren original zu
+unterschreiben. Ein Muster f\"{u}r diese ehrenw\"{o}rtliche Erkl\"{a}rung ist im Anhang 1
+dargestellt. Bei einer Gruppenarbeit ist diese Erkl\"{a}rung von jedem Bearbeiter und
+jeder Bearbeiterin f\"{u}r den von ihm/ihr verfassten Teil der Arbeit abzugeben.
+
+Quellenangaben sind bei \glqq klassischer \grqq\ Zitation - ebenso wie sachliche
+Randbemerkungen des Verfassers - in Fu\ss noten aufzunehmen.\footnote{Grunds\"{a}tzlich ist
+auch eine Zitation im Harvard-Stil zul\"{a}ssig, bei welchem die Quelle im laufenden
+Text in Klammern genannt wird. Siehe dazu das Eco-Zitat auf S. 1.} Fu\ss noten sind als
+abgek\"{u}rzte S\"{a}tze aufzufassen. Die Quellenzuordnung erfolgt in der Regel durch eine
+hochgestellte Zahl am Ende des Zitates, wobei unterhalb des Textes der jeweiligen
+Seite in einer Fu\ss note die Quelle angegeben wird.
+
+Fu\ss noten fangen immer mit Gro\ss buchstaben an und enden mit Punkten. Sie sollten am
+Fu\ss e der jeweiligen Seite angegeben werden. Text und Fu\ss noten sind durch einen
+Strich voneinander abzugrenzen. Die Fu\ss noten werden mit der gleichen Schriftart wie
+im Text wiedergegeben. Die Schriftgr\"{o}\ss e sollte 2 pt kleiner als der Haupttext sein.
+Die Nummerierung der Fu\ss note erfolgt seiten-, kapitel- oder textm\"{a}\ss ig. Die
+Fu\ss notenziffer wird im Text hochgestellt und i. d. R. mit einer Schriftgr\"{o}\ss e kleiner
+als der Haupttext formatiert. Wichtig ist die eindeutige Zuordnung der Fu\ss note zu
+einem Satzteil, zu einem Satz oder zu einem Absatz.
+
+Durch Zitate wird im Text auf den Zusammenhang mit dem Gedankengut anderer
+hingewiesen. Die Verwendung von fremdem Gedankengut ist durch eine genaue
+Quellenangabe deutlich in der Arbeit zu vermerken.\footnote{Zur Form von
+Sekund\"{a}rbelegen vgl. z.B. \cite{bae1996}, S. 51.}  Zitate sind   wenn m\"{o}glich aus
+der Prim\"{a}rquelle zu entnehmen und sollten das (und nur das) enthalten, was Sie mit
+dem w\"{o}rtlichen oder sinngem\"{a}\ss en Zitat belegen m\"{o}chten. Nur wenn das Originalwerk
+objektiv nicht zug\"{a}nglich ist, kann nach einer Quellenangabe in der
+Sekund\"{a}rliteratur zitiert werden. Der Quellenhinweis gibt in diesem Fall mit dem
+Hinweis \glqq Zitiert nach ... \grqq\ auch die Sekund\"{a}rliteratur an. Die
+Quellenangaben sind ausreichend und eindeutig genug anzuf\"{u}hren, um die Quelle und
+die angesprochene Stelle leicht wieder finden zu k\"{o}nnen. Bei der Verwendung von
+Quellen aus dem Internet ist stets die genaue Adresse (URL) sowie das Datum des
+Abrufs der Quelle mit anzugeben.
+
+Man unterscheidet mehrere \textbf{Zitatformen}: Von einem \textbf{direkten Zitat}
+(Zitat i. e. S.) wird gesprochen, wenn Ausf\"{u}hrungen von Dritten w\"{o}rtlich in den
+eigenen Text \"{u}bernommen werden. Diese \"{U}bernahmen sind buchstaben- und zeichengetreu
+vorzunehmen. Abweichungen vom Original sind deshalb durch eingeklammerte Zus\"{a}tze mit
+einem Hinweis, z.B. \glqq Anm. d. Verf.\grqq, deutlich zu kennzeichnen.
+Hervorhebungen (z.B. Unterstreichungen etc.) im zitierten Text sollten grunds\"{a}tzlich
+\"{u}bernommen werden; eigene Hervorhebungen sind mit dem Zusatz \glqq Herv. durch
+Verf.\grqq\ zu kennzeichnen. Auslassungen in einem Zitat sind durch mehrere Punkte
+anzudeuten. Englische Zitate sind grunds\"{a}tzlich im Original zu zitieren, l\"{a}ngere
+fremdsprachige Zitate sind zu \"{u}bersetzen und in einer Fu\ss note in der Originalsprache
+anzugeben. Ein direktes Zitat wird im Text zwischen Anf\"{u}hrungsstriche gesetzt und in
+der Fu\ss note ohne den Zusatz \glqq Vgl.\grqq\ belegt. W\"{o}rtliche Zitate sollten kurz
+sein und eigene Formulierungen nicht ersetzen. Zitate sind angebracht, wenn es auf
+die Demonstration der im Zitat gew\"{a}hlten Formulierung ankommt. Bei der Wiedergabe
+l\"{a}ngerer Textpassagen ist eine entsprechende Hervorhebung zu empfehlen (z.B. durch
+einzeiligen Abstand und/oder Texteinz\"{u}gen).
+
+Bei einem \textbf{indirekten bzw. sinngem\"{a}\ss en Zitat} (Zitat i. w. S.) handelt es
+sich um jede Form der inhaltlichen Anlehnung oder sinngem\"{a}\ss en Wiedergabe fremder
+Gedanken und Ausf\"{u}hrungen in der eigenen Arbeit. Sie ist als solche anzugeben. Die
+Quellen werden in der Fu\ss note mit einem \glqq vgl.\grqq\ bzw. \glqq Vgl.\grqq\
+(=vergleiche) versehen.
+
+Bei der \textbf{Zitiertechnik} ist der Vollbeleg oder der Kurzbeleg m\"{o}glich. Zu
+Beginn der Arbeit sollte die Entscheidung f\"{u}r eine dieser Techniken getroffen werden
+und diese gew\"{a}hlte Technik in der gesamten Arbeit auch konsequent angewendet werden.
+
+Beim \textbf{Vollbeleg} sind diejenigen Daten zumindest beim Erstbezug auf die
+betreffende Quelle vollst\"{a}ndig in Fu\ss noten anzugeben, so wie dies auch im
+Literaturverzeichnis erfolgt. Zus\"{a}tzlich sind noch die Seite(n), die zitiert werden,
+zu nennen. Wird sich mehrfach auf dieselbe Quelle bezogen, so k\"{o}nnen folgende
+\textbf{Verk\"{u}rzungen} verwendet werden:
+
+Wird die Quelle in \textbf{zwei aufeinander folgenden} Fu\ss noten genannt, so kann in
+der zweiten Fu\ss note die Verk\"{u}rzung \glqq Ebenda\grqq\ verwendet werden. (Bsp.: FN 1:
+Vgl. Kruschwitz, Lutz: Investitionsrechnung, 6. Aufl., Berlin, New York, 1995, S. 65
+66. FN 2: Ebenda, S. 63.)
+
+Wird die Quelle \textbf{mehrfach}, jedoch nicht aufeinander folgend in den Fu\ss noten
+genannt, so kann bei der zweiten und jeder darauf folgenden Nennung der Quelle die
+Verk\"{u}rzung \glqq a. a. O.\grqq\ verwendet werden. (Bsp.: FN 1: Vgl. Kaas, Klaus P.:
+Informations\"{o}konomik, in: Tietz, Bruno/K\"{o}hler, Richard/Zentes, Joachim (Hrsg.),
+\emph{Handw\"{o}rterbuch des Marketing}, 2. Aufl., Stuttgart, 1995, SP. 972. FN2: Vgl.
+Kruschwitz, Lutz: Investitionsrechnung, 6. Aufl., Berlin, New York, 1995, S. 65 66.
+FN 3: Vgl. Kaas, Klaus P.: Informations\"{o}konomik, a. a. O., SP. 975). Diese
+Verk\"{u}rzung ist allerdings nur dann zul\"{a}ssig, wenn in der Arbeit keine weiteren
+Quellen desselben Autors herangezogen wurden.
+
+Beim Kurzbeleg werden nur wenige bibliographische Angaben in der jeweiligen Fu\ss note
+ungeachtet ihrer erstmaligen oder wiederholten Nennung wiedergegeben, wobei es
+verschiedene M\"{o}glichkeiten gibt: Name, Stichwort, Jahr, Zitatstelle (Bsp.: Vgl.
+K\"{u}ting/Weber, Bilanzanalyse, 1997, S. 21.), oder Name, Stichwort, Zitatstelle (Bsp.:
+L. Kruschwitz, Investitionsrechnung, S. 25.), oder Name, Jahr, Zitatstelle (Bsp.:
+Baumol, 2000, S. 43.). Die Zeichensetzung wird unterschiedlich gehandhabt.
+Variationen sind Anf\"{u}hrungsstriche f\"{u}r das Stichwort, keine Kommata,
+Unterstreichung/Kursivdruck des Stichwortes oder des Namens. Geben Sie wenn m\"{o}glich
+immer die genaue Seite (\glqq S. 100\grqq) bzw. Seiten (\glqq S. 100-101\grqq) an.
+
+Um die vollst\"{a}ndige Quellenbezeichnung im Literaturverzeichnis zu finden, ist in die
+Quellenangabe beim Kurzzitat der Name des Autors/der Autorin mit der in Klammern
+hinzugef\"{u}gten Jahresangabe sowie die Seitenzahl aufzunehmen. Entsprechend erh\"{a}lt im
+Literaturverzeichnis jede Quelle als \glqq Kennziffer\grqq\ das Erscheinungsjahr,
+das hinter den Namen des Autors/der Autorin gesetzt wird. Bei mehr als zwei
+Autoren/innen kann in der Quellenangabe die Abk\"{u}rzung et al. (Lat.: Abk\"{u}rzung f\"{u}r et
+alii, alternativ: u.a. f\"{u}r \glqq und andere\grqq) verwendet werden. Beispiel: Bei
+der Zitierweise Brockhoff, 1994, S. 25 ist der Kurzbeleg nicht ausreichend, wenn es
+mehrere Quellen mit denselben Autoren und Jahr gibt. Es ist dann entweder der
+Vorname bei mehreren Autoren mit gleichem Nachnamen oder ein Zusatz bei der
+Jahreszahl (z. B. 1994a und 1994b) bei mehreren Quellen aus demselben Jahr
+hinzuzuf\"{u}gen. Jedes Zitat muss zudem daraufhin \"{u}berpr\"{u}ft werden, ob es nicht - aus
+dem Zusammenhang genommen - einen anderen als den ihm vom Autor oder der Autorin
+gegebenen Sinn erh\"{a}lt.
+
+\subsubsection{Das Literaturverzeichnis als Quellennachweis}
+
+Im Literaturverzeichnis sind s\"{a}mtliche, der Abfassung der Arbeit zu Grunde liegenden
+Quellen anzugeben. Die Quellen werden im Allgemeinen in alphabetischer Reihenfolge
+nach Nachnamen der Verfasser geordnet bzw. als \glqq ohne Verfasser\grqq (o. V.)
+eingeordnet. Auf eine einheitliche Form der bibliographischen Angaben ist innerhalb
+der Arbeit zu achten.
+
+Die einzelnen Angaben zur Bezeichnung der Quellen in den Quellenangaben und im
+Literaturverzeichnis sind den Quellen selbst zu entnehmen. Dabei ist der Haupttitel,
+nicht der Einbandtitel, zu nennen. Zus\"{a}tzliche Angaben k\"{o}nnen zweckm\"{a}\ss ig sein; hier
+ist von Fall zu Fall zu entscheiden. Eine wichtige Orientierungsfunktion hat hierbei
+die CIP-Einheitsaufnahme der Deutschen Bibliothek in Verbindung mit den Angaben zum
+Urheberrecht. Folgende Angaben sind im einzelnen erforderlich:
+
+\begin{enumerate}
+
+\item bei B\"{u}chern/Monographien:
+
+Name des Verfassers/der Verfasserin (oder der Autoren/-innen) und Initialen des/der
+Vornamen(s) (akademische Grade und Titel werden nicht genannt), Erscheinungsjahr und
+Titel des Werkes, Auflage (falls erforderlich) Verlagsort (bei mehr als drei
+Verlagsorten ist der erste mit usw. zu nennen) Beispiel: Schwindt, C. (2005):
+Resource Allocation in Project Management. Berlin.
+
+\item bei Zeitschriftenaufs\"{a}tzen:
+
+Name des Verfassers/der Verfasserin (oder der Autoren/-innen) und Initialen des/der
+Vornamen(s) Erscheinungsjahr und Titel des Aufsatzes In: Titel der Zeitschrift
+(Erscheinungsort bei wenig bekannten Zeitschriften) Jahrgang und Nummer des Heftes
+und Seitenangabe mit der ersten und letzten Seiten- bzw. Spaltenzahl des Aufsatzes.
+Beispiel: Zimmermann, J. und Schwindt, C. (2002): \emph{Parametrische Optimierung
+als Instrument zur Bewertung von Investitionsprojekten}, In: Zeitschrift f\"{u}r
+Betriebswirtschaft, Jahrgang 72, Heft 6, S. 593-617.
+
+\item bei Sammelwerken:
+
+Name des Verfassers/der Verfasserin (oder der Autoren/-innen) und Initialen des/der
+Vornamen(s) , Erscheinungsjahr und Titel des Aufsatzes, In: Name und Initialen des
+Vornamens der oder des Herausgebers, (Hrsg.), Titel, Verlagsort, Seitenzahlen,
+Auflage (falls erforderlich), Verlagsort und Seitenangabe mit der ersten und letzten
+letzten Seiten- bzw. Spaltenzahl des Aufsatzes. Beispiel: Erlei, M. und Jost, P.-J.
+(2001): Theoretische Grundlagen des Transaktionskostenansatzes, In: Jost, P.-J.
+(Hrsg.), \emph{Der Transaktionskostenansatz in der Betriebswirtschaftslehre},
+Stuttgart, S. 35-75.
+
+\end{enumerate}
+
+Mehrere Ver\"{o}ffentlichungen eines Verfassers bzw. einer Verfasserin werden
+chronologisch ansteigend entsprechend ihrem Erscheinungsjahr eingestellt. Mehrere
+Ver\"{o}ffentlichungen eines Verfassers/einer Verfasserin aus einem Jahr werden mit
+einem alphabetischen Index (a, b, ...) versehen, der entsprechend in den
+Quellennachweis aufzunehmen ist. Beispiel: Schenk-Mathes, H. (2000a):
+Kooperationsformen auf dem Energiemarkt unter besonderer Ber\"{u}cksichtigung des
+Contracting, In: Beck, H.-P. u.a. (Hrsg.), \emph{Handbuch Energiemanagement},
+Heidelberg. Schenk-Mathes, H. (2000b): \"{O}konomische Instrumente zur Steuerung von
+umweltbezogenen Aktivit\"{a}ten in Unternehmen, In: Baur, J.F. (Hrsg.),
+\emph{Umweltschutz und Energieversorgung im nationalen und internationalen
+Rechtsrahmen}, K\"{o}ln, S. 9-24.
+
+Bislang ist noch nicht abschlie\ss end gekl\"{a}rt, wie Quellen aus dem
+Internet\footnote{Vgl. dazu \cite{alb1998}, S. 1368. Als Einf\"{u}hrung in die
+Literaturrecherche im World Wide Web \cite{jss1996}.} zu zitieren sind, obwohl
+gerade auch diese Form der Recherche in der Vergangenheit an Bedeutung gewonnen hat.
+So stehen mittlerweile zahlreiche wissenschaftliche Arbeiten entweder exklusiv oder
+in ihrer neuesten Fassung nur im Internet zur Verf\"{u}gung. F\"{u}r derartige Quellen
+bietet sich ein der Zitierweise zu Fachzeitschriften analoges Vorgehen an, damit
+auch diese Quellen ausreichend informativ sowie eindeutig nachzuvollziehen sind. Wie
+bereits an anderer Stelle erw\"{a}hnt, ist f\"{u}r Internetquellen die Angabe der
+vollst\"{a}ndigen URL sowie des Datums des Ausdrucks obligatorisch. Beispiel: Romstad,
+E. (2000): Environmental Performance: An Extension of Weitzman's Pri-ces vs.
+Quantities,
+\emph{http://www.soc.uoc.gr/calendar/2000EAERE/papers/PDF/B5-Romstad.pdf},
+05.12.2002.
+
+\subsection{Anforderungen an die Textgestaltung} \label{Textgestaltung}
+
+\subsubsection{Ordnungsschema, Umfang und Erscheinungsbild}
+
+F\"{u}r die Gestaltung von wissenschaftlichen Arbeiten wird das in Tabelle 3
+dargestellte Ordnungsschema empfohlen. Bei jeder Position ist zudem angegeben, ob
+diese f\"{u}r Bachelor- (B), Diplom- (D), Master- (M) und Studienarbeiten (St) und/oder
+Seminararbeiten (S) erforderlich ist. Au\ss er den leeren Deckbl\"{a}ttern und dem
+Titelblatt sind s\"{a}mtliche Bl\"{a}tter zu nummerieren.\footnote{Zu Nummerierungsarten
+vgl. Abschnitt \ref{Gliederungssystematik}.}
+
+\begin{center}
+\begin{table}[h] \centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|l|l|l|}
+\multicolumn{1}{c}{\hspace{2cm}} & \multicolumn{1}{c}{\hspace{5cm}} &
+\multicolumn{1}{c}{\hspace{5cm}}\\ \hline 1. & Leeres Deckblatt & St, D, B, M \\
+\hline
+2. & Titelblatt & S, St, D, B, M \\
+\hline 3. & Inhaltsverzeichnis & S, St, D, B, M
+\\
+\hline 4. & (fach-/themenspezifisches) Abk\"{u}rzungsverzeichnis (bei Bedarf) & S, St,
+D,
+B, M \\
+\hline
+5. & Verzeichnis der Tabellen und Abbildungen (bei Bedarf) & S, St, D, B, M \\
+\hline
+6. & Haupttext & S, St, D, B, M \\
+\hline
+7. & Literaturverzeichnis & S, St, D, B, M \\
+\hline
+8. & Anhang (ggf. mit Verzeichnis) & St, D, B, M \\
+\hline
+9. & Ehrenw\"{o}rtliche Erkl\"{a}rung & St, D, B, M \\
+\hline 10. & Leeres Deckblatt & St, D, B, M \\
+\hline
+\end{tabular}
+\singlespacing \caption{Aufbau einer wissenschaftlichen Arbeit}\label{Aufbau}
+{Quelle: Eigene Darstellung}
+\renewcommand{\arraystretch}{1.3}
+\onehalfspacing
+\end{table}
+\end{center}
+
+Alle Inhaltselemente einer Arbeit vor dem eigentlichen Haupttext sollten in
+r\"{o}mischen Ziffern nummeriert werden. Der Haupttext wird in arabischen Ziffern
+beginnend mit 1 nummeriert. Die Seitenummerierung wird im Literaturverzeichnis und
+im Anhang fortgesetzt.
+
+Bachelor-, Diplom-, Master- und Studienarbeiten sind stets gebunden und mit einem
+festen Umschlag verbunden abzugeben. Die Anzahl der einzureichenden Exemplare und
+weitere formale Anforderungen sind im Pr\"{u}fungsamt oder ggf. bei den Betreuern der
+Arbeit zu erfragen. Seminararbeiten sind i.d.R. in doppelter Ausf\"{u}hrung
+anzufertigen. Sie k\"{o}nnen in einem Schnellhefter oder lediglich mit einem
+Heftstreifen versehen bei den jeweiligen Betreuerinnen und Betreuern abgegeben
+werden. N\"{a}here Details sollten allerdings auch hier mit den zust\"{a}ndigen
+Betreuerinnen und Betreuern abgestimmt werden.
+
+Seminararbeiten sollten einen Umfang von ca. 15 Seiten aufweisen. Studienarbeiten
+und der auf einen Studierenden entfallende Teil einer Projektarbeit sollten einen
+Umfang von 30-50 Seiten, Diplom-, Bachelor- und Masterarbeiten von 50-80 Seiten
+vorweisen (Richtgr\"{o}\ss e). Abweichungen von diesen Vorgaben sind mit der Betreuerin
+oder dem Betreuer abzustimmen. Alle Arbeiten sind grunds\"{a}tzlich maschinenschriftlich
+zu erstellen. F\"{u}r die Schrift ist i.d.R. die Gr\"{o}\ss e 12 pt f\"{u}r Textteile, 10 pt f\"{u}r
+Fu\ss noten vorgesehen. Als Schriftart sollten g\"{a}ngige Standardschriften (z.B. Times
+New Roman) verwendet werden. Bei der Wahl der Schriftart ist auf ein leicht zu
+lesendes Schriftbild zu achten. Ferner sollten bei gegebenen Randeinstellungen
+ungef\"{a}hr genau so viele Zeichen pro Zeile gef\"{u}hrt werden wie in der Standardschrift
+Times New Roman.
+
+Das Manuskript ist jeweils einseitig auf DIN-A4 (Schreibmaschinen-)Papier zu
+beschriften. Freizulassen sind insgesamt 7 cm Rand f\"{u}r Korrekturvermerke, Binde- und
+Heftrand. Hierbei sollte der linke Seitenrand etwa 3 cm oder rechte Seitenrand 4 cm
+betragen. Am oberen Rand sollten bis zum Text etwa 2,5 cm (bis zur Seitenzahl
+mindestens 1 cm) freigelassen werden. Am unteren Rand reichen ca. 2 cm. Das
+Seitenformat ist bei s\"{a}mtlichen Arbeiten einheitlich zu gestalten und bildet den
+Rahmen f\"{u}r jede Form der Gestaltung des textlichen Erscheinungsbildes (Kopfzeilen,
+Fu\ss noten, Graphiken, Tabellen usw.). In den Textteilen ist ein Zeilenabstand von 1,5
+einzuhalten. Bei den Fu\ss noten kann ein einzeiliger Zeilenabstand gew\"{a}hlt werden,
+dies ist ebenfalls im Literaturverzeichnis m\"{o}glich. Einzelne Abs\"{a}tze sollen sich
+deutlich, z. B. durch einen Anfangsabstand und/oder eine Einr\"{u}ckung der ersten
+Zeile, voneinander absetzen.
+
+Das Titelblatt ist f\"{u}r alle Typen von wissenschaftlichen Arbeiten dem Titelblatt der
+hier vorliegenden Arbeit entsprechend zu gestalten. Aus dem Titelblatt muss
+inhaltlich das Bearbeitungsthema, die Art der Arbeit, der Referent/die Referentin,
+der Autor/die Autorin der Arbeit sowie das Abgabedatum hervorgehen.
+
+Prinzipiell k\"{o}nnen alle Formen wissenschaftlicher Arbeiten auch in Form von
+Gruppenarbeiten zugelassen werden. Hierbei ist es erforderlich, sowohl im
+Inhaltsverzeichnis als auch zu Beginn der einzelnen Abschnitte zu vermerken, welche
+Kapitel, Textabschnitte und/oder Seiten welchem der Bearbeiter bzw. der
+Bearbeiterinnen zuzuordnen sind. Nur somit kann eine differenzierte Begutachtung der
+Pr\"{u}fungsleistung \"{u}berhaupt erst erfolgen. Abweichend zu dieser Titelblattgestaltung
+werden bei Seminararbeiten zus\"{a}tzlich die Daten der besuchten Veranstaltung
+(Seminarname und Semester) mit angegeben.
+
+An das Titelblatt schlie\ss t sich das Inhaltsverzeichnis der Arbeit an, welches einen
+\"{U}berblick \"{u}ber dessen Gliederung gibt. Um der Leserin/dem Leser der Arbeit ein
+erstes Erfassen der Arbeit erleichtern zu k\"{o}nnen, sind die einzelnen
+Gliederungspunkte \"{u}bersichtlich und gro\ss z\"{u}gig (z.B. durch Einr\"{u}ckungen der
+jeweiligen Gliederungsebenen) anzuordnen. F\"{u}r jeden einzelnen Gliederungspunkt sind
+die entsprechenden Seitenzahlen im Inhaltsverzeichnis anzugeben, die \"{U}berschriften
+der einzelnen Textabschnitte m\"{u}ssen mit den jeweiligen Seiten \"{u}bereinstimmen.
+Erg\"{a}nzend enth\"{a}lt das Inhaltsverzeichnis auch Hinweise auf das Abk\"{u}rzungs-,
+Abbildungs-, Tabellen- und Literaturverzeichnis sowie m\"{o}glicherweise auf einen
+Anhang (vgl. Kap. 3.2.2).
+
+\subsubsection{Abk\"{u}rzungen, Tabellen und Abbildungen}
+
+Im laufenden Text der Arbeit sind Abk\"{u}rzungen m\"{o}glichst sparsam zu verwenden, da
+durch deren vielfachen Gebrauch das Verst\"{a}ndnis der Arbeit u.U. erheblich
+eingeschr\"{a}nkt werden kann. Abk\"{u}rzungen, welche auf reiner Bequemlichkeit beruhen,
+sind somit also nicht angebracht, wie z.B. \glqq WM\grqq\ f\"{u}r \glqq
+Wissensmanagement\grqq\ oder \glqq MC\grqq\ f\"{u}r \glqq Management Consulting\grqq.
+Dagegen sind gel\"{a}ufige Abk\"{u}rzungen des allgemeinen Sprachgebrauchs (wie etc., z. B.,
+usw., vgl. - Ma\ss stab ist hier der Duden) selbstverst\"{a}ndlich anerkannt und m\"{u}ssen im
+Allgemeinen auch nicht in ein eventuell erstelltes Abk\"{u}rzungsverzeichnis aufgenommen
+werden. Allgemein \"{u}bliche Abk\"{u}rzungen, bspw. f\"{u}r Zeitschriftentitel, so wie sie in
+der Tabelle 4 beispielhaft dargestellt sind, f\"{u}r Gesetzestexte oder auch f\"{u}r
+Organisationen, k\"{o}nnen verwendet werden.
+
+\begin{center}
+\begin{table}[h] \centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|l|l|}
+\multicolumn{1}{c}{\hspace{5cm}} & \multicolumn{1}{c}{\hspace{5cm}}\\ \hline AER
+American Economic Review & DBW Die Betriebswirtschaft \\ \hline JofA Journal of
+Accountancy & JPE Journal of Political Economy \\ \hline QJE Quarterly Journal of
+Economics & ZfB Zeitschrift f\"{u}r Betriebswirtschaft \\ \hline
+\end{tabular}
+\singlespacing \caption{Beispiele f\"{u}r Abk\"{u}rzungen von
+Fachzeitschriften}\label{AbkJournals} {Quelle: entsprechend aktueller Ausgaben der
+genannten Fachzeitschriften}
+\renewcommand{\arraystretch}{1.3}
+\onehalfspacing
+\end{table}
+\end{center}
+
+S\"{a}mtliche Tabellen und Abbildungen im Text sollten eine m\"{o}glichst klare Bezeichnung
+haben. Daneben ist stets auch ein Quellennachweis zu erbringen. S\"{a}mtliche Tabellen
+und Abbildungen sind fortlaufend kapitel- oder textweise mit arabischen Ziffern zu
+nummerieren.
+
+Abk\"{u}rzungs- und Abbildungs- bzw. Tabellenverzeichnis erkl\"{a}ren bzw. dokumentieren,
+wie die im Text verwendeten Kurzschreibweisen zu verstehen sind bzw. auf welchen
+Seiten sich grafische und tabellarische \"{U}bersichten befinden. Das
+Abk\"{u}rzungsverzeichnis enth\"{a}lt alphabetisch geordnet die im Text verwendeten
+Abk\"{u}rzungen mit ihrer ausf\"{u}hrlichen Bezeichnung. Im Abbildungs- und
+Tabellenverzeichnis werden alle im Text verwendeten \"{U}bersichten mit ihrer
+Bezeichnung und der betreffenden Seitennummer aufgef\"{u}hrt. Diese Verzeichnisse
+geh\"{o}ren - zusammen mit dem Inhaltsverzeichnis - zu den Grundinformationen f\"{u}r den
+Umgang mit dem Text und werden daher dem eigentlichen Textteil vorangestellt.
+
+Umfangreicheres und erg\"{a}nzendes Material zur Arbeit, wie sie etwa gr\"{o}\ss ere
+tabellarische und grafische Darstellungen, mathematische Berechnungen, statistische
+Analysen oder auch l\"{a}ngere Gesetzestexte darstellen k\"{o}nnen, ist in einem Anhang am
+Ende der Arbeit unterzubringen. Generell ist zu beachten, dass der Anhang kein \glqq
+Auffangbecken\grqq\ f\"{u}r Tabellen und Abbildungen darstellt, die einen unmittelbaren
+Teil der inhaltlichen Bearbeitung darstellen. Vielmehr sollte ein Anhang lediglich
+zus\"{a}tzliche Informationen zum eigentlichen Text beinhalten, die einem vertiefenden
+Textverst\"{a}ndnis f\"{o}rderlich sein k\"{o}nnten. Bei einem entsprechenden Umfang ist dem
+Anhang ein eigenst\"{a}ndiges Verzeichnis voranzustellen.
+
+\section{Beratung, Betreuung und Bewertung}\label{Beratung}
+
+Die in diesem Text genannten Format- und Zitiervorgaben stehen h\"{a}ufig bei der Frage
+nach den Erfordernissen an die Anfertigung einer wissenschaftlichen Abschlussarbeit
+im Vordergrund. Allerdings stellt die Erf\"{u}llung die Vorgaben nur eines von mehreren
+Kriterien dar, welche f\"{u}r die Beurteilung einer Abschlussarbeit herangezogen werden
+k\"{o}nnen.\footnote{Vgl. dazu auch \cite{spd2004}, S. 126-131.}
+
+Aus den bisherigen Ausf\"{u}hrungen dieser Arbeit k\"{o}nnen somit f\"{u}r eine
+wissenschaftliche Abschlussarbeit die folgenden Bewertungsfelder abgeleitet werden.
+
+\begin{itemize}
+
+\item Die Entwicklung einer Fragestellung sowie eines Untersuchungsaufbaus bildet
+stets den Ausgangspunkt der eigenen Bearbeitung. F\"{u}r die Entwicklung der
+Fragestellung ist eine systematische Problemanalyse erforderlich. Darin wird die
+Relevanz der Zielsetzung aus der Bedeutung des zu behandelnden Problems im
+Themengebiet abgeleitet. Im Untersuchungsaufbau ist insbesondere der gew\"{a}hlte
+Untersuchungsansatz sowie die Strukturierung der Arbeit zu begr\"{u}nden.
+
+\item In der Literaturauswertung wird eine inhaltliche Aufbereitung sowie eine
+problemorientierte Einordnung der f\"{u}r die Bearbeitung relevanten Literatur
+vorgenommen. In diesem Analyseschritt sind themenrelevante Begriffe und Konzepte
+auszuf\"{u}hren sowie mit Blick auf die eigene Problemstellung kritisch zu reflektieren.
+
+\item Die \glqq Logik\grqq\ der Argumentationsf\"{u}hrung bezieht sich auf die
+problemorientierte Synthese der inhaltlichen Ergebnisse. Die Folgerungen m\"{u}ssen
+stichhaltig und die einzelnen Argumentationsschritte in der \glqq logischen\grqq\
+Klammer, die von der Einleitung zum Ergebnisteil einer Arbeit f\"{u}hrt, nachvollziehbar
+sein.
+
+\item Mittels der formalen Gestaltung der Arbeit, und dabei insbesondere auch der
+Zitation verwendeter Quellen, wird ein Ausdruck einer sorgf\"{a}ltigen inhaltlichen
+Bearbeitung der Themenstellung vermittelt.
+
+\end{itemize}
+
+Die individuelle Bearbeitung eines Themas hat sich an diesem Bewertungskanon zu
+orientieren. Das bedeutet auch, dass am Anfang eines solchen Bearbeitungsprozesses
+weder alle Probleme aufgeworfen, noch alle Fragen beantwortet werden k\"{o}nnen. Zudem
+sind wissenschaftliche Arbeitsprozesse, von der Problemstellung \"{u}ber erste
+Gliederungsentw\"{u}rfe bis zur endg\"{u}ltigen Fertigstellung, auch stets durch einen
+Austausch und eine Kooperation mit Kommilitoninnen und Kommilitonen sowie einer
+Kommunikation mit dem oder den Betreuern/-innen gekennzeichnet.
+
+
+\newpage
+\begin{thebibliography}{}
+
+\singlespacing
+\bibitem[\protect\citeauthoryear{Alberth}{\emph{Alberth}}{1998}]{alb1998}{Alberth, M.R. (1998):} \emph{Kurze Gedanken zum wissenschaftlichen Zitieren des Internets},
+In: ZfB - Zeitschrift f\"{u}r Betriebswirtschaft, 68. Jg., Heft 12, S. 1367-1374.
+
+\bibitem[\protect\citeauthoryear{B\"{a}nsch}{\emph{B\"{a}nsch}}{1998}]{bae1996}{B\"{a}nsch, A. (1996):} Wissenschaftliches Arbeiten. Seminar- und Diplomarbeiten, M\"{u}nchen
+und Wien, 5. Auflage.
+
+\bibitem[\protect\citeauthoryear{Brink}{\emph{Brink}}{2005}]{bri2005}{Brink, A. (2005):} Anfertigung wissenschaftlicher Arbeiten,
+M\"{u}nchen und Wien, 2. Auflage.
+
+\bibitem[\protect\citeauthoryear{Corsten}{\emph{Corsten}}{1996}]{cor1996}{Corsten, H. (1996):} \emph{Literatur\"{u}berblick Wissenschaftliches Arbeiten},  In: WiSt
+- Wirtschaftswissenschaftliches Studium. 25. Jg., Heft 11. S. 597-600.
+
+\bibitem[\protect\citeauthoryear{Disterer}{\emph{Disterer}}{1998}]{dis1998}{Disterer, G. (1998):} Studienarbeiten schreiben. Diplom-, Seminar- und Hausarbeiten
+in den Wirtschaftswissenschaften, Berlin u.a.
+
+\bibitem[\protect\citeauthoryear{Eco}{\emph{Eco}}{1993}]{eco1993}{Eco, U. (1993):} Wie man eine wissenschaftliche Abschlu\ss arbeit schreibt, Heidelberg,
+6. Auflage.
+
+\bibitem[\protect\citeauthoryear{Franck}{\emph{Franck}}{2004}]{fra2004}{Franck, N. (2004):} Handbuch Wissenschaftliches Arbeiten, Frankfurt a. M.
+
+\bibitem[\protect\citeauthoryear{Haefner}{\emph{Haefner}}{2000}]{hae2000}{Haefner, K. (2000):} Gewinnung und Darstellung wissenschaftlicher Erkenntnisse,
+M\"{u}nchen und Wien.
+
+
+\bibitem[\protect\citeauthoryear{Jaros-Sturhahn und Schachtner}{\emph{Jaros-Sturhahn und Schachtner}}{1996}]{jss1996}{Jaros-Sturhahn, A. und Schachtner, K. (1996):} \emph{Literaturrecherche im World Wide
+Web}, In: WiSt - Wirtschaftswissenschaftliches Studium. 25. Jg., Heft 8. S. 419-422.
+
+\bibitem[\protect\citeauthoryear{Koeder}{\emph{Koeder}}{1988}]{koe1988}{Koeder, K.W. (1988):} \emph{Arbeitsmethodik im Studium. Wissensaufnahme und Verarbeitung},
+In: WiSt - Wirtschaftswissenschaftliches Studium. 17. Jg., Heft 1. S. 43-46.
+
+\bibitem[\protect\citeauthoryear{Ridder}{\emph{Ridder}}{2001}]{rid2001}{Ridder, H.-G. (2001):} Wie man eine wissenschaftliche Abschlussarbeit
+schreibt, Institut f\"{u}r Betriebsforschung, Universit\"{a}t Hannover.
+
+\bibitem[\protect\citeauthoryear{Rossig und Pr\"{a}tsch}{\emph{Rossig und Pr\"{a}tsch}}{2005}]{rop2005}{Rossig, W. und Pr\"{a}tsch, J. (2005):} Wissenschaftliche Arbeiten, Hamburg., 5.
+Auflage.
+
+\bibitem[\protect\citeauthoryear{Schlep\"{u}tz}{\emph{Schlep\"{u}tz}}{2003}]{sch2003}{Schlep\"{u}tz, V. (2003):} \emph{Anleitung zum Lesen eines wirtschaftswissenschaftlichen
+Journal-Beitrags}, In: WiSt - Wirtschaftswissenschaftliches Studium. 32. Jg., Heft
+5. S. 305-310.
+
+\bibitem[\protect\citeauthoryear{Spoun und Domnik}{\emph{Spoun und Domnik}}{2004}]{spd2004}{Spoun, S. und Domnik, D. (2004):} Erfolgreich studieren. Ein Handbuch f\"{u}r
+Wirt-schafts- und Sozialwissenschaftler, M\"{u}nchen.
+
+\bibitem[\protect\citeauthoryear{Theisen}{\emph{Theisen}}{1993}]{the1993}{Theisen, M.R. (1993):} Wissenschaftliches Arbeiten. Technik -
+Methodik - Form, M\"{u}nchen, 7. Auflage.
+
+\end{thebibliography}
+
+\newpage
+\section*{Anhang}
+
+
+Anhang 1: Ehrenw\"{o}rtliche Erkl\"{a}rung f\"{u}r Diplom-/Bachelor-/Masterarbeiten
+
+
+
+E R K L \"{A} R U N G
+
+Hiermit versichere ich, dass ich die vorliegende Arbeit selbst\"{a}ndig verfasst und
+keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe, dass alle
+Stellen der Arbeit, die w\"{o}rtlich oder sinngem\"{a}\ss  aus anderen Quellen \"{u}bernommen
+wurden, als solche kenntlich gemacht sind, und dass die Arbeit in gleicher oder
+\"{a}hnlicher Form noch keiner Pr\"{u}fungsbeh\"{o}rde vorgelegt wurde.
+
+Ort, Datum Unterschrift der Kandidatin/des Kandidaten
+
+
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+\addcontentsline{toc}{section}{Anhang}
+
+
+
+\end{document}

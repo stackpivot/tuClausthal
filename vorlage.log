@@ -1,0 +1,472 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  14 APR 2013 14:40
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**vorlage.tex
+(./vorlage.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/ngermanb.ldf
+Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\l@naustrian = a dialect from \language\l@ngerman 
+Package babel Info: Making " an active character on input line 92.
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count88
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen104
+\Gm@wd@mp=\dimen105
+\Gm@odd@mp=\dimen106
+\Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
+\Gm@dimlist=\toks17
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption2.sty
+Package: caption2 2011/08/12 v2.2d Customising captions (AR)
+
+
+Package caption2 Warning: ****************************************************
+(caption2)                THIS PACKAGE IS OBSOLETE:
+(caption2)                This package attempts to provide an `caption2'
+(caption2)                package v2.0/2.1 author environment so that OLD
+(caption2)                documents can be successfully processed. It should
+(caption2)                NOT be used for NEW documents! New documents should
+(caption2)                use the regular `caption' package v3.x instead.
+(caption2)                ****************************************************
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen112
+\captionmargin@=\dimen113
+\captionwidth=\dimen114
+\caption@indent=\dimen115
+\caption@parindent=\dimen116
+\caption@hangindent=\dimen117
+)
+Package caption2 Info: Running in caption2 v2.0 compatibility mode on input lin
+e 210.
+\captionlinewidth=\dimen118
+\realcaptionwidth=\dimen119
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks18
+\footnotemargin=\dimen120
+\c@pp@next@reset=\count92
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2010/09/08 v1.36 Support for acronyms (Tobias Oetiker)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5 Variant command support
+)
+\AC@clearlist=\toks19
+)
+No file vorlage.aux.
+\openout1 = `vorlage.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 27.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 1:1
+* vratio: 1:1
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(85.35826pt, 398.3386pt, 113.81102pt)
+* v-part:(T,H,B)=(71.13188pt, 717.00946pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.3386pt
+* \textheight=650.00946pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-1.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <24.88> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <20.74> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 40.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 40.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <20.74> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 40.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+ [1
+
+{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+
+No file vorlage.toc.
+\tf@toc=\write3
+\openout3 = `vorlage.toc'.
+
+[1]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 79.
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 79.
+
+No file vorlage.lot.
+\tf@lot=\write4
+\openout4 = `vorlage.lot'.
+
+[2]
+
+Package acronym Warning: Acronym `TUC' is not defined on input line 102.
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 100--106
+\OT1/ptm/m/n/12 Bachelor-, Diplom-, Master-, Seminar- und Stu-di-en-ar-bei-ten 
+stel-len Pr[]ufungs-
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 117.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 117.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 117.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 120.
+
+Package natbib Warning: Citation `bri2005' on page 1 undefined on input line 12
+0.
+
+
+Package natbib Warning: Citation `rop2005' on page 1 undefined on input line 12
+0.
+
+
+Package natbib Warning: Citation `fra2004' on page 1 undefined on input line 12
+0.
+
+
+Package natbib Warning: Citation `dis1998' on page 1 undefined on input line 12
+0.
+
+
+Package natbib Warning: Citation `bae1996' on page 1 undefined on input line 12
+0.
+
+
+Package natbib Warning: Citation `cor1996' on page 1 undefined on input line 12
+0.
+
+
+Package natbib Warning: Citation `eco1993' on page 1 undefined on input line 12
+0.
+
+
+Package natbib Warning: Citation `the1993' on page 1 undefined on input line 12
+0.
+
+
+Package natbib Warning: Citation `rid2001' on page 1 undefined on input line 12
+0.
+
+
+LaTeX Warning: Reference `Verfassen' on page 1 undefined on input line 134.
+
+
+LaTeX Warning: Reference `Formales' on page 1 undefined on input line 134.
+
+
+LaTeX Warning: Reference `Beratung' on page 1 undefined on input line 136.
+
+
+LaTeX Warning: Reference `AAufbau' on page 1 undefined on input line 144.
+
+
+LaTeX Warning: Reference `Umgang' on page 1 undefined on input line 146.
+
+[1
+
+]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 149.
+ [2]
+Underfull \hbox (badness 1320) in paragraph at lines 186--196
+[]\OT1/ptm/m/n/12 Eine wich-ti-ge Auf-ga-be der Ein-lei-tung stellt die in-halt
+-li-che Be-gr[]undung der
+ []
+
+[3]
+
+LaTeX Warning: Reference `TabGliederung' on page 4 undefined on input line 235.
+
+
+[4] [5]
+
+Package natbib Warning: Citation `hae2000' on page 6 undefined on input line 36
+1.
+
+
+Package natbib Warning: Citation `koe1988' on page 6 undefined on input line 36
+9.
+
+
+Package natbib Warning: Citation `sch2003' on page 6 undefined on input line 36
+9.
+
+[6]
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 373.
+
+
+LaTeX Warning: Reference `Textbearbeitung' on page 7 undefined on input line 41
+9.
+
+
+LaTeX Warning: Reference `Textgestaltung' on page 7 undefined on input line 421
+.
+
+[7] [8]
+
+Package natbib Warning: Citation `bae1996' on page 9 undefined on input line 46
+3.
+
+[9] [10] [11]
+
+Package natbib Warning: Citation `alb1998' on page 12 undefined on input line 6
+09.
+
+
+Package natbib Warning: Citation `jss1996' on page 12 undefined on input line 6
+09.
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 607--621
+[]\OT1/ptm/m/n/12 Bislang ist noch nicht ab-schlie-^^Yend ge-kl[]art, wie Quel-
+len aus dem In-ter-
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 607--621
+\OT1/ptm/m/n/12 Ver-gan-gen-heit an Be-deu-tung ge-won-nen hat. So ste-hen mitt
+-ler-wei-le zahl-rei-
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 607--621
+\OT1/ptm/m/n/12 sung nur im In-ter-net zur Verf[]ugung. F[]ur der-ar-ti-ge Quel
+-len bie-tet sich ein
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 607--621
+\OT1/ptm/m/n/12 der Zi-tier-wei-se zu Fach-zeit-schrif-ten ana-lo-ges Vor-ge-he
+n an, da-mit auch die-
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 607--621
+\OT1/ptm/m/n/12 be-reits an an-de-rer Stel-le erw[]ahnt, ist f[]ur In-ter-net-q
+uel-len die An-ga-be der
+ []
+
+
+LaTeX Warning: Reference `Gliederungssystematik' on page 12 undefined on input 
+line 631.
+
+
+Overfull \hbox (26.61374pt too wide) in paragraph at lines 636--659
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 666--670
+[]\OT1/ptm/m/n/12 Alle In-halts-ele-men-te ei-ner Ar-beit vor dem ei-gent-li-ch
+en Haupt-text soll-ten in
+ []
+
+[12] [13]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14]
+
+Package natbib Warning: Citation `spd2004' on page 15 undefined on input line 7
+92.
+
+[15] [16] [17]
+
+Package natbib Warning: There were undefined citations.
+
+[18] (./vorlage.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2704 strings out of 493488
+ 39728 string characters out of 3141326
+ 100021 words of memory out of 3000000
+ 5992 multiletter control sequences out of 15000+200000
+ 29992 words of font info for 59 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 36i,8n,38p,236b,299s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texl
+ive/2012/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/201
+2/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-di
+st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on vorlage.pdf (21 pages, 115422 bytes).
+PDF statistics:
+ 97 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,22 @@
+\select@language {ngerman}
+\contentsline {section}{Inhaltsverzeichnis}{i}
+\contentsline {section}{Abk\"{u}rzungsverzeichnis}{ii}
+\contentsline {section}{Tabellenverzeichnis}{ii}
+\contentsline {section}{\numberline {1}Einleitung}{1}
+\contentsline {section}{\numberline {2}Das Verfassen einer wissenschaftlichen Abschlussarbeit}{2}
+\contentsline {subsection}{\numberline {2.1}Der Aufbau einer wissenschaftlichen Arbeit}{2}
+\contentsline {subsubsection}{\numberline {2.1.1}Fragestellung und Vorgehensweise}{2}
+\contentsline {subsubsection}{\numberline {2.1.2}Die Gliederungssystematik}{3}
+\contentsline {subsection}{\numberline {2.2}Der Umgang mit wissenschaftlicher Literatur}{5}
+\contentsline {subsubsection}{\numberline {2.2.1}Die Suche nach relevanter Literatur}{5}
+\contentsline {subsubsection}{\numberline {2.2.2}Die Verarbeitung von Literaturquellen}{6}
+\contentsline {section}{\numberline {3}Der formale Rahmen der Anfertigung von wissenschaftlichen Arbeiten}{8}
+\contentsline {subsection}{\numberline {3.1}Anforderungen an die Textbearbeitung}{8}
+\contentsline {subsubsection}{\numberline {3.1.1}Die Quellenangabe im Text}{8}
+\contentsline {subsubsection}{\numberline {3.1.2}Das Literaturverzeichnis als Quellennachweis}{11}
+\contentsline {subsection}{\numberline {3.2}Anforderungen an die Textgestaltung}{12}
+\contentsline {subsubsection}{\numberline {3.2.1}Ordnungsschema, Umfang und Erscheinungsbild}{12}
+\contentsline {subsubsection}{\numberline {3.2.2}Abk\"{u}rzungen, Tabellen und Abbildungen}{14}
+\contentsline {section}{\numberline {4}Beratung, Betreuung und Bewertung}{15}
+\contentsline {section}{Literaturverzeichnis}{18}
+\contentsline {section}{Anhang}{18}
